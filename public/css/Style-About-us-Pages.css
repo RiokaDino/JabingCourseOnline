@@ -1,0 +1,124 @@
+/*ส่วนแถบด้านบนทั้งหมด*/
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+  
+    background-image: linear-gradient(315deg, #ffead9 0%, #ffead9 100%);
+  }
+  
+  .clearfix {
+    clear: both;
+  }
+  
+  .container{
+    width: 960px;
+    margin: 0 auto;
+  }
+  
+  /*menubar*/
+  .menubar {
+    width: 100%;
+    height: 60px;
+    background: #3d2f2b;
+    box-shadow: 0 0 10px #f6f3ee;
+  }
+  
+  .menubar .logo {
+    float: left;
+  }
+  
+  .menubar h1 {
+    margin: 0;
+    font-size: 24px;
+    font-weight: normal;
+    padding: 10px;
+    color: #f6f3ee;;
+  }
+  
+  /*menu_one*/
+  .menubar ul.menu_one {
+    list-style: none;
+    float: left;
+  }
+  .menubar ul.menu_one li {
+    float: left;
+    margin-right: 50px;
+  }
+  
+  .menubar ul.menu_one li a {
+    text-decoration: none;
+    color: #f6f3ee;
+    border-bottom: 2px solid transparent;
+    padding-bottom: 20px;
+    transition: all 0.3s ease;
+  }
+  .menubar ul.menu_one li a:hover {
+    border-bottom: 2px solid #f6f3ee;
+    padding-bottom: 0;
+  }
+  
+  /*menu_two*/
+  .menubar ul.menu_two {
+    list-style: none;
+    float: left;
+  }
+  .menubar ul.menu_two li {
+    float: left;
+    margin-left: 50px;
+  }
+  .menubar ul.menu_two li a {
+    text-decoration: none;
+    color: #f6f3ee;
+    border-bottom: 2px solid transparent;
+    padding-bottom: 20px;
+    transition: all 0.3s ease;
+  }
+  .menubar ul.menu_two li a:hover {
+    border-bottom: 2px solid #f6f3ee;
+    padding-bottom: 0;
+  }  
+/*ส่วนแถบด้านบนทั้งหมด*/
+
+
+/*name about us*/
+.name_aboutus {
+    text-align: left;
+    margin-left: 100px;
+    color: #544541;
+    font-size: 30px;
+}
+
+/*Test_about us*/
+.Text_aboutus {
+    text-align: left;
+    margin-left: 100px;
+    color: #544541;
+    font-size: 20px;
+    font-weight: normal;
+}
+
+/*name contact*/
+.name_contact {
+    text-align: left;
+    margin-left: 100px;
+    color: #544541;
+    font-size: 30px;
+}
+
+/*Text_Contact*/
+.Text_contact {
+    text-align: left;
+    margin-left: 100px;
+    color: #544541;
+    font-size: 20px;
+    font-weight: normal;
+}
+
+/*footer p*/
+footer p {
+    text-align: center;
+    margin: 0;
+    color: #544541;
+    
+}

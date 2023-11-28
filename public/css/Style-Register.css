@@ -1,0 +1,190 @@
+/*ส่วนแถบด้านบนทั้งหมด*/
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Montserrat', sans-serif;
+
+  background-image: linear-gradient(315deg, #ffead9 0%, #ffead9 100%);
+}
+
+.clearfix {
+  clear: both;
+}
+
+.container {
+  width: 960px;
+  margin: 0 auto;
+}
+
+/*menubar*/
+.menubar {
+  width: 100%;
+  height: 60px;
+  background: #3d2f2b;
+  box-shadow: 0 0 10px #f6f3ee;
+}
+
+.menubar .logo {
+  float: center;
+}
+
+.menubar h1 {
+  text-align: center;
+  margin: 0;
+  font-size: 24px;
+  font-weight: normal;
+  padding: 10px;
+  color: #f6f3ee;
+}
+
+/*menu_one*/
+.menubar ul.menu_one {
+  list-style: none;
+  float: left;
+}
+.menubar ul.menu_one li {
+  float: left;
+  margin-right: 50px;
+}
+
+.menubar ul.menu_one li a {
+  text-decoration: none;
+  color: #f6f3ee;
+  border-bottom: 2px solid transparent;
+  padding-bottom: 20px;
+  transition: all 0.3s ease;
+}
+.menubar ul.menu_one li a:hover {
+  border-bottom: 2px solid #f6f3ee;
+  padding-bottom: 0;
+}
+
+/*menu_two*/
+.menubar ul.menu_two {
+  list-style: none;
+  float: left;
+}
+.menubar ul.menu_two li {
+  float: left;
+  margin-left: 50px;
+}
+.menubar ul.menu_two li a {
+  text-decoration: none;
+  color: #f6f3ee;
+  border-bottom: 2px solid transparent;
+  padding-bottom: 20px;
+  transition: all 0.3s ease;
+}
+.menubar ul.menu_two li a:hover {
+  border-bottom: 2px solid #f6f3ee;
+  padding-bottom: 0;
+}
+
+/*ส่วนแถบด้านบนทั้งหมด*/
+
+header .header{
+    background-color: #fff;
+    height: 45px;
+  }
+  
+  .register-header{
+    font-size: 100%;
+    color: #f6f3ee;
+  }
+  .register-page {
+    width: 360px;
+    padding: 8% 0 0;
+    margin: auto;
+  }
+  .register-page .form .login{
+    margin-top: -31px;
+    margin-bottom: 26px;
+    text-align: center;
+  }
+  
+  .form {
+    color: #f6f3ee;
+    position: relative;
+    z-index: 1;
+    background: #8d7771;
+    border-radius: 10px 10px 10px 10px;
+    max-width: 360px;
+    margin: 0 auto 100px;
+    padding: 45px;
+    text-align: left;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+  }
+  .form input {
+    font-family: "Roboto", sans-serif;
+    outline: 0;
+    background: #f2f2f2;
+    width: 100%;
+    border: 0;
+    margin: 0 0 15px;
+    padding: 15px;
+    box-sizing: border-box;
+    font-size: 14px;
+  }
+  .form button {
+    font-family: "Roboto", sans-serif;
+    text-transform: uppercase;
+    outline: 0;
+    background-color: #328f8a;
+    background-image: linear-gradient(45deg,#f6f3ee,#f6f3ee);
+    width: 100%;
+    border: 0;
+    border-radius: 10px 10px 10px 10px;
+    padding: 15px;
+    color: #544541;
+    font-size: 14px;
+    -webkit-transition: all 0.3 ease;
+    transition: all 0.3 ease;
+    cursor: pointer;
+  }
+  .form .message {
+    margin: 15px 0 0;
+    color: #b3b3b3;
+    font-size: 12px;
+  }
+  .form .message a {
+    color: #4CAF50;
+    text-decoration: none;
+  }
+  
+  
+  /*Test_text*/
+.Test2_text {
+    text-align: center;
+    color: #544541;
+    font-size: 20px;
+    font-weight: normal;
+}
+
+#project-button2{
+    font-family: 'Dela Gothic One', cursive;
+    font-size: 110%;
+    padding: 10px;
+    border: solid 3px;
+    border-radius: 0px 0px 0px 0px;
+    color: white;
+    background-color: #544541;
+    
+}
+
+/*bg*/
+.bg {
+  background: #ffead9;
+}
+
+/*footer p*/
+footer p {
+    text-align: center;
+    margin: 0;
+    color: #544541;
+}
+
+.div label {
+  margin: 15px 0 0;
+  color: #b3b3b3;
+  font-size: 12px;
+}

@@ -1,0 +1,156 @@
+/*ส่วนแถบด้านบนทั้งหมด*/
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+
+    background-image: linear-gradient(315deg, #ffead9 0%, #ffead9 100%);
+}
+
+.clearfix {
+    clear: both;
+}
+
+.container {
+    width: 960px;
+    margin: 0 auto;
+}
+
+/*menubar*/
+.menubar {
+    width: 100%;
+    height: 60px;
+    background: #3d2f2b;
+    box-shadow: 0 0 10px #f6f3ee;
+}
+
+.menubar .logo {
+    float: left;
+}
+
+.menubar h1 {
+    margin: 0;
+    font-size: 24px;
+    font-weight: normal;
+    padding: 10px;
+    color: #f6f3ee;
+}
+
+/*menu_one*/
+.menubar ul.menu_one {
+    list-style: none;
+    float: left;
+}
+.menubar ul.menu_one li {
+    float: left;
+    margin-right: 50px;
+}
+
+.menubar ul.menu_one li a {
+    text-decoration: none;
+    color: #f6f3ee;
+    border-bottom: 2px solid transparent;
+    padding-bottom: 20px;
+    transition: all 0.3s ease;
+}
+.menubar ul.menu_one li a:hover {
+    border-bottom: 2px solid #f6f3ee;
+    padding-bottom: 0;
+}
+
+/*menu_two*/
+.menubar ul.menu_two {
+    list-style: none;
+    float: left;
+}
+.menubar ul.menu_two li {
+    float: left;
+    margin-left: 50px;
+}
+.menubar ul.menu_two li a {
+    text-decoration: none;
+    color: #f6f3ee;
+    border-bottom: 2px solid transparent;
+    padding-bottom: 20px;
+    transition: all 0.3s ease;
+}
+.menubar ul.menu_two li a:hover {
+    border-bottom: 2px solid #f6f3ee;
+    padding-bottom: 0;
+}
+
+/*ส่วนแถบด้านบนทั้งหมด*/
+
+.name_aboutus {
+  margin-left: 100px;
+  font-size: 25px;
+  font-weight: normal;
+  padding: 10px;
+  color: #3d2f2b;
+}
+
+/**/
+div.gallery {
+    border: 1px solid #ccc;
+  }
+  
+  div.gallery:hover {
+    border: 1px solid #777;
+  }
+  
+  div.gallery img {
+    width: 100%;
+    height: auto;
+  }
+  
+  div.desc {
+    padding: 15px;
+    text-align: center;
+  }
+  
+  * {
+    box-sizing: border-box;
+  }
+
+  .grid-box {
+    margin-left: 100px;
+    grid-template-columns: 50% auto;
+  }
+  
+  .responsive1 {
+    grid-column: 1;
+    padding: 0 6px;
+    float: left;
+    width: 24.99999%;
+  }
+
+  .responsive2 {
+    grid-column: 2;
+    padding: 0 6px;
+    float: left;
+    width: 24.99999%;
+  }
+  
+  @media only screen and (max-width: 700px) {
+    .responsive {
+      width: 49.99999%;
+      margin: 6px 0;
+    }
+  }
+  
+  @media only screen and (max-width: 500px) {
+    .responsive {
+      width: 100%;
+    }
+  }
+  
+  .clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+/*bg*/
+.bg {
+    background: #ffead9;
+  }
